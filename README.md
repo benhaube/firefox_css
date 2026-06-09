@@ -28,8 +28,8 @@ Anyway, for the first time I wrote some userContent.ccs to match all of the abou
     + Go to FF Menu ➝ Help ➝ 'More Troubleshooting Information' or navigate to `about:support` in your address bar.
     + Under 'Application Basics', click the 'Open Folder' *('Show in Finder' on MacOS)* button next to 'Profile folder'. You should now see your profile folder open in your file manager.
 
-    > [!note]
-    > For Thunderbird, the menu choice is TB Menu ➝ Help ➝ 'Troubleshooting Information'.
+> [!note]
+> For Thunderbird, the menu choice is TB Menu ➝ Help ➝ 'Troubleshooting Information'.
 
 3. Create the folder and its files:
     + Inside your profile folder, create a new folder named 'chrome' *(case-insensitve)*.
@@ -39,5 +39,5 @@ Anyway, for the first time I wrote some userContent.ccs to match all of the abou
     + Go to `about:profiles` and click the 'Restart normally...' button.
     + Go to `about:restartrequired` and click the 'Restart Firefox' button.
 
-    > [!note]
-    > For Thunderbird, close and restart the application the way you normally would, or go to TB Menu ➝ Help Troubleshooting Information ➝ click `about:profiles` link near the bottom of the 'Application Basics' section ➝ click the 'Restart normally' button
+> [!note]
+> For Thunderbird, close and restart the application the way you normally would, or go to TB Menu ➝ Help Troubleshooting Information ➝ click `about:profiles` link near the bottom of the 'Application Basics' section ➝ click the 'Restart normally' button
