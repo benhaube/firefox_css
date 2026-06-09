@@ -4,6 +4,8 @@ I have always written my own Firefox themes to match the system colors I am usin
 
 Anyway, for the first time I wrote some userContent.ccs to match all of the about:* pages with my theme. The colors in my CSS are designed to match with my [Material Dark Forest](https://addons.mozilla.org/en-US/firefox/addon/material-dark-forest/) theme, but you can change them to match whatever theme you want. I also have a few other themes listed in the "store" under my Mozilla Developer account and some others that are signed by Mozilla but not listed. If you want the link to get those you can DM me. 
 
+![Firefox Screenshot](./assets/FF_Material_Dark_Forest.png)
+
 ## System Configuration
 
 | Property         | Value                        |
