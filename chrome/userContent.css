@@ -1,0 +1,55 @@
+:root {
+    --background-color-canvas: #001417 !important;
+    --background-color-box: #002429 !important;
+    --background-color-box-info: #002429 !important;
+    --border-color: #8ed0dc !important;
+    --color-accent-primary: #8ed0dc !important;
+    --table-background-color: #002429 !important;
+    --table-row-background-color-alternate: #001417 !important;
+    --table-border-color: #008698 !important;
+    --cpu-percent-bar: #008698 !important;
+    --newtab-background-card: #002429 !important;
+    --newtab-background-color: #001417 !important;
+    --newtab-background-color-secondary: #002429 !important;
+    --newtab-weather-background-color: #002429 !important;
+    --newtab-element-hover-color: #008698 !important;
+    --fxview-background-color: #001417 !important;
+}
+
+/* Ensure these changes ONLY apply to Firefox's internal pages */
+@-moz-document url-prefix("about:") {
+
+    /* Target the text and search input boxes directly */
+    input[type="text"],
+    input[type="search"],
+    input:not([type]) {
+        background-color: var(--background-color-box) !important;
+        color: var(--color-accent-primary) !important; /* Optional: matches your text to the teal accent */
+
+        /* * Depending on your OS theme, the system might try to force its own native
+         * appearance over the background color. If the color still doesn't change,
+         * uncomment the line below to strip the native OS styling.
+         */
+        /* appearance: none !important; */
+    }
+
+    body {
+        background-color: var(--background-color-canvas) !important;
+    }
+}
+
+/* Change colors of CPU percentage bars, selected rows, and active profiler icons on about:processes */
+tr[selected] > td {
+    background-color: var(--color-accent-primary-selected) !important;
+    color: var(--text-color-accent-primary-selected) !important;
+}
+.profiler-active {
+    fill: var(--cpu-percent-bar) !important;
+}
+
+.cpu {
+    background: linear-gradient(to left, var(--cpu-percent-bar) calc(var(--bar-width) * 1%), transparent calc(var(--bar-width) * 1%)) !important;
+}
+.cpu:dir(rtl) {
+    background: linear-gradient(to right, var(--cpu-percent-bar) calc(var(--bar-width) * 1%), transparent calc(var(--bar-width) * 1%)) !important;
+}
