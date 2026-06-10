@@ -1,10 +1,20 @@
-# Material Dark Forest
+# Firefox CSS
 
 I have always written my own Firefox themes to match the system colors I am using at any given time. Right now I use the KDE Plasma DE with the KDE-Material-You-Colors package and set the color I want manually instead of using the automatic wallpaper feature.
 
-Anyway, for the first time I wrote some userContent.ccs to match all of the about:* pages with my theme. The colors in my CSS are designed to match with my [Material Dark Forest](https://addons.mozilla.org/en-US/firefox/addon/material-dark-forest/) theme, but you can change them to match whatever theme you want. I also have a few other themes listed in the "store" under my Mozilla Developer account and some others that are signed by Mozilla but not listed. If you want the link to get those you can DM me. 
+Anyway, for the first time I wrote some userContent.ccs to match all of the about:* pages with my themes. I have several themes listed in the "store" under my Mozilla Developer account and some others that are signed by Mozilla but not listed. If you want the link to get those you can DM me. 
 
 ![Firefox Screenshot](./assets/FF_Material_Dark_Forest.png)
+
+## My Themes
+
+| Theme                    | Link                                                                                        |
+| :----------------------- | :------------------------------------------------------------------------------------------ |
+| Material Dark Forest     | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-dark-forest/)     |
+| Material Purple Enhanced | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-purple-enhanced/) |
+| Material Navy Blue       | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-navy-blue/)       |
+| Breeze Light             | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/breeze-light-firefox/)     |
+| Breeze Dark              | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/kde_breeze_dark_theme/)    |
 
 ## System Configuration
 
@@ -12,7 +22,7 @@ Anyway, for the first time I wrote some userContent.ccs to match all of the abou
 | :--------------- | :--------------------------- |
 | Operating System | Fedora 44 KDE Plasma Edition |
 | Kernel Version   | `7.0.11-200.fc44.x86_64`     |
-| Firefox Version  | `151.0.2` *(64-bit)*         |
+| Firefox Version  | `151.0.3` *(64-bit)*         |
 | Firefox Build    | `20260527091838`             |
 
 > [!note]

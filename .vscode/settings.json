@@ -1,5 +1,5 @@
 {
-    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.defaultFormatter": null,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
     "editor.mouseWheelZoom": false
 }
