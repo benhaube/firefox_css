@@ -3,7 +3,8 @@
     --background-color-box: #161616 !important;
     --background-color-box-info: #161616 !important;
     --border-color: #00F700 !important;
-    --button-background-color-hover: #0E380E !important;
+    --button-background-color: #092409 !important;
+    --button-background-color-hover: #107410 !important;
     --button-background-color-active: #0C570C !important;
     --button-background-color-primary-hover: #00D100 !important;
     --button-background-color-primary-active: #00AC00 !important;
@@ -87,4 +88,15 @@ tr[selected] > td {
 .nova-enabled .weather-widget:hover, .nova-enabled .weather-widget:focus-within {
   outline: 1px solid var(--border-color) !important;
   /* box-shadow: var(--card-box-shadow-hover); */
+}
+
+.highlighting-group {
+  --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
+}
+
+.privacy-detailedoption {
+  background-color: var(--background-color-canvas) !important;
+}
+.privacy-detailedoption.selected {
+  background-color: var(--section-highlight-background-color) !important;
 }
