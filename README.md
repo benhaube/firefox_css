@@ -1,8 +1,8 @@
 # Firefox CSS
 
-I have always written my own Firefox themes to match the system colors I am using at any given time. Right now I use the KDE Plasma DE with the KDE-Material-You-Colors package and set the color I want manually instead of using the automatic wallpaper feature.
+I have always written my own Firefox themes to match the system colors I am using at any given time. Right now I use the KDE Plasma DE with the [KDE-Material-You-Colors](https://github.com/luisbocanegra/kde-material-you-colors) package and set the color I want manually instead of using the automatic wallpaper feature.
 
-Anyway, for the first time I wrote some userContent.ccs to match all of the about:* pages with my themes. I have several themes listed in the "store" under my Mozilla Developer account and some others that are signed by Mozilla but not listed. If you want the link to get those you can DM me. 
+Anyway, for the first time I wrote some `userContent.ccs` to match all of the `about:*` pages with my themes. I have several themes listed in the "store" under my [Mozilla Developer account](https://addons.mozilla.org/en-US/firefox/user/17796929/) and some others that are signed by Mozilla but not listed. If you want the link to get those you can DM me. 
 
 ![Firefox Screenshot](./assets/FF_Material_Dark_Forest.png)
 
