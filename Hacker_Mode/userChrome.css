@@ -20,6 +20,11 @@
  * CTRL-TAB PANEL
  * -------------------------- */
 
+#ctrlTab-panel {
+  appearance: none !important;
+  --panel-background: hsla(0, 0%, 9%, 0.85) !important;
+}
+
 .ctrlTab-favicon[src] {
   background-color: #0E380E !important;
 }
