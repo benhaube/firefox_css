@@ -3,18 +3,31 @@
     --background-color-box: #002429 !important;
     --background-color-box-info: #002429 !important;
     --border-color: #8ed0dc !important;
+    --button-background-color: #00464f !important;
+    --button-background-color-hover: #008698 !important;
+    --button-background-color-active: #00626f !important;
+    --button-background-color-primary-hover: #8ed0dc !important;
+    --button-background-color-primary-active: #8ed0dc !important;
+    --button-background-color-primary-selected: #8ed0dc !important;
     --color-accent-primary: #8ed0dc !important;
     --color-accent-primary-selected: #8ed0dc !important;
     --table-background-color: #002429 !important;
     --table-row-background-color-alternate: #001417 !important;
     --table-border-color: #008698 !important;
     --cpu-percent-bar: #008698 !important;
+    --newtab-text-primary-color: #8ed0dc !important;
+    --newtab-primary-element-text-color: #8ed0dc !important;
     --newtab-background-card: #002429 !important;
     --newtab-background-color: #001417 !important;
     --newtab-background-color-secondary: #002429 !important;
     --newtab-weather-background-color: #002429 !important;
     --newtab-element-hover-color: #008698 !important;
     --fxview-background-color: #001417 !important;
+}
+
+:root.nova-tokens {
+    --button-background-color-hover: #008698 !important;
+    --button-background-color-active: #00626f !important;
 }
 
 /* Ensure these changes ONLY apply to Firefox's internal pages */

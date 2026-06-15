@@ -1,0 +1,34 @@
+:root {
+    --panel-separator-color: #8ed0dc !important;
+    --panel-separator-color: #8ed0dc !important;
+    --button-background-color-hover: #00626f !important;
+    --button-background-color-active: #00464F !important;
+    --button-background-color-selected: #00464F !important;
+    --toolbarbutton-active-background: #00464F !important;
+    --toolbarbutton-icon-fill: #8ed0dc !important;
+    --color-accent-primary: #8ed0dc !important;
+}
+
+:is(menupopup, panel) {
+  /* We can always render in the preferred color scheme (unless otherwise
+   * overridden). */
+  color-scheme: dark !important; 
+}
+
+/* -------------------------- 
+ * CTRL-TAB PANEL
+ * -------------------------- */
+
+.ctrlTab-favicon[src] {
+  background-color: #00464F !important;
+}
+
+#ctrlTab-showAll {
+  background-color: #00464F !important;
+}
+
+.ctrlTab-preview:focus > .ctrlTab-preview-inner,
+#ctrlTab-showAll:focus {
+  background-color: #001417 !important;
+  border-color: #8ed0dc !important;
+}
