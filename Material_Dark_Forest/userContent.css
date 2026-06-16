@@ -2,13 +2,15 @@
     --background-color-canvas: #001417 !important;
     --background-color-box: #002429 !important;
     --background-color-box-info: #002429 !important;
+    --background-color-information: #00464f !important;
+    --icon-color-information: #8ed0dc !important;
     --border-color: #8ed0dc !important;
     --button-background-color: #00464f !important;
     --button-background-color-hover: #008698 !important;
     --button-background-color-active: #00626f !important;
-    --button-background-color-primary-hover: #8ed0dc !important;
-    --button-background-color-primary-active: #8ed0dc !important;
-    --button-background-color-primary-selected: #8ed0dc !important;
+    --button-background-color-primary-hover: #008698 !important;
+    --button-background-color-primary-active: #00626f !important;
+    --button-background-color-primary-selected: #00626f !important;
     --color-accent-primary: #8ed0dc !important;
     --color-accent-primary-selected: #8ed0dc !important;
     --table-background-color: #002429 !important;
@@ -23,6 +25,7 @@
     --newtab-weather-background-color: #002429 !important;
     --newtab-element-hover-color: #008698 !important;
     --fxview-background-color: #001417 !important;
+    --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
 }
 
 :root.nova-tokens {
@@ -66,4 +69,37 @@ tr[selected] > td {
 }
 .cpu:dir(rtl) {
     background: linear-gradient(to right, var(--cpu-percent-bar) calc(var(--bar-width) * 1%), transparent calc(var(--bar-width) * 1%)) !important;
+}
+
+/* Customize Weather Widget */
+.nova-enabled .weather-widget {
+  /* padding: var(--space-medium); */
+  /* background-color: var(--newtab-background-card); */
+  /* border-radius: var(--border-radius-large); */
+  /* box-shadow: var(--box-shadow-level-2); */
+  color: var(--newtab-text-primary-color) !important; 
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: relative; */
+  /* z-index: 1; */
+  --weather-sunny-background-color: var(--newtab-weather-background-color) !important;
+  --weather-cloudy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-rainy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-snowy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-hot-background-color: var(--newtab-weather-background-color) !important;
+}
+.nova-enabled .weather-widget:hover, .nova-enabled .weather-widget:focus-within {
+  outline: 1px solid var(--border-color) !important;
+  /* box-shadow: var(--card-box-shadow-hover); */
+}
+
+.highlighting-group {
+  --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
+}
+
+.privacy-detailedoption {
+  background-color: var(--background-color-canvas) !important;
+}
+.privacy-detailedoption.selected {
+  background-color: var(--section-highlight-background-color) !important;
 }
