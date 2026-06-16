@@ -2,13 +2,15 @@
     --background-color-canvas: #111111 !important;
     --background-color-box: #161616 !important;
     --background-color-box-info: #161616 !important;
+    --background-color-information: #092409 !important;
+    --icon-color-information: #00F700 !important;
     --border-color: #00F700 !important;
     --button-background-color: #092409 !important;
     --button-background-color-hover: #107410 !important;
     --button-background-color-active: #0C570C !important;
-    --button-background-color-primary-hover: #00D100 !important;
-    --button-background-color-primary-active: #00AC00 !important;
-    --button-background-color-primary-selected: #00AC00 !important;
+    --button-background-color-primary-hover: #107410 !important;
+    --button-background-color-primary-active: #0C570C !important;
+    --button-background-color-primary-selected: #0C570C !important;
     --color-accent-primary: #00F700 !important;
     --color-accent-primary-selected: #00F700 !important;
     --table-background-color: #161616 !important;
@@ -23,6 +25,7 @@
     --newtab-weather-background-color: #161616 !important;
     --newtab-element-hover-color: #0E380E !important;
     --fxview-background-color: #111111 !important;
+    --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
 }
 
 :root.nova-tokens {
