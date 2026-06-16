@@ -5,6 +5,8 @@
     --background-color-information: #00464f !important;
     --icon-color-information: #8ed0dc !important;
     --border-color: #8ed0dc !important;
+    --border-color-interactive: #8ed0dc !important;
+    --border-color-interactive-hover: #8ed0dc !important;
     --button-background-color: #00464f !important;
     --button-background-color-hover: #008698 !important;
     --button-background-color-active: #00626f !important;
@@ -13,6 +15,8 @@
     --button-background-color-primary-selected: #00626f !important;
     --color-accent-primary: #8ed0dc !important;
     --color-accent-primary-selected: #8ed0dc !important;
+    --color-accent-primary-hover: #008698 !important;
+    --color-accent-primary-active: #00626f !important;
     --table-background-color: #002429 !important;
     --table-row-background-color-alternate: #001417 !important;
     --table-border-color: #008698 !important;
@@ -24,13 +28,57 @@
     --newtab-background-color-secondary: #002429 !important;
     --newtab-weather-background-color: #002429 !important;
     --newtab-element-hover-color: #008698 !important;
+    --newtab-button-static-background: #00464f !important;
+    --newtab-button-static-hover-background: #00626f !important;
     --fxview-background-color: #001417 !important;
     --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
+    --focus-outline: #8ed0dc !important;
 }
 
 :root.nova-tokens {
     --button-background-color-hover: #008698 !important;
     --button-background-color-active: #00626f !important;
+}
+
+/* New Tab Page toggles */
+@layer tokens-foundation, tokens-foundation-nova, tokens-prefers-contrast, tokens-prefers-contrast-nova, tokens-forced-colors, tokens-forced-colors-nova;
+
+@layer tokens-foundation {
+  :root,
+  :host {
+    --toggle-background-color: var(--button-background-color) !important;
+    --toggle-background-color-hover: var(--button-background-color-hover) !important;
+    --toggle-background-color-active: var(--button-background-color-active) !important;
+    --toggle-background-color-pressed: var(--color-accent-primary) !important;
+    --toggle-background-color-pressed-hover: var(--color-accent-primary-hover) !important;
+    --toggle-background-color-pressed-active: var(--color-accent-primary-active) !important;
+    --toggle-border-color: var(--border-color-interactive) !important;
+    --toggle-border-color-hover: var(--toggle-border-color) !important;
+    --toggle-border-color-active: var(--toggle-border-color) !important;
+    --toggle-dot-background-color: var(--toggle-border-color) !important;
+    --toggle-dot-background-color-hover: var(--toggle-dot-background-color) !important;
+    --toggle-dot-background-color-active: var(--toggle-dot-background-color) !important;
+    --toggle-dot-background-color-on-pressed: var(--background-color-canvas) !important;
+  }
+}
+
+@layer tokens-forced-colors {
+  @media (forced-colors) {
+    :root,
+    :host {
+      --toggle-border-color-hover: var(--border-color-interactive-hover) !important;
+      --toggle-border-color-active: var(--border-color-interactive-active) !important;
+      --toggle-dot-background-color: var(--color-accent-primary) !important;
+      --toggle-dot-background-color-hover: var(--color-accent-primary-hover) !important;
+      --toggle-dot-background-color-active: var(--color-accent-primary-active) !important;
+      --toggle-dot-background-color-on-pressed: var(--button-background-color) !important;
+    }
+  }
+}
+
+.home-section .section .customize-menu-checkbox:checked {
+	-moz-context-properties: fill !important;
+	fill: var(--newtab-background-color) !important;
 }
 
 /* Ensure these changes ONLY apply to Firefox's internal pages */
