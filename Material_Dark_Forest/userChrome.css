@@ -1,4 +1,6 @@
 :root {
+    --background-color-canvas: #001417 !important;
+    --background-color-box: #002429 !important;
     --panel-separator-color: #8ed0dc !important;
     --panel-separator-color: #8ed0dc !important;
     --button-background-color-hover: #00626f !important;
