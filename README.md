@@ -8,13 +8,13 @@ Anyway, for the first time I wrote some `userContent.ccs` to match all of the `a
 
 ## My Themes
 
-| Theme                    | Link                                                                                        |
-| :----------------------- | :------------------------------------------------------------------------------------------ |
-| Material Dark Forest     | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-dark-forest/)     |
-| Material Purple Enhanced | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-purple-enhanced/) |
-| Material Navy Blue       | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-navy-blue/)       |
-| Breeze Light             | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/breeze-light-firefox/)     |
-| Breeze Dark              | [⤓&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/kde_breeze_dark_theme/)    |
+| Theme                    | Link                                                                                             |
+| :----------------------- | :----------------------------------------------------------------------------------------------- |
+| Material Dark Forest     | [&darr;&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-dark-forest/)     |
+| Material Purple Enhanced | [&darr;&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-purple-enhanced/) |
+| Material Navy Blue       | [&darr;&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/material-navy-blue/)       |
+| Breeze Light             | [&darr;&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/breeze-light-firefox/)     |
+| Breeze Dark              | [&darr;&nbsp;Download](https://addons.mozilla.org/en-US/firefox/addon/kde_breeze_dark_theme/)    |
 
 ## System Configuration
 
