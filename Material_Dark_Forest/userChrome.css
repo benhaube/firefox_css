@@ -39,3 +39,15 @@
   background-color: #001417 !important;
   border-color: #8ed0dc !important;
 }
+
+/* -------------------------- 
+ * ABOUT PANEL
+ * -------------------------- */
+
+#aboutDialogContainer {
+  background-color: #002429 !important;
+  color-scheme: dark;
+}
+#bottomBox {
+  background-color: #001417 !important;
+}
