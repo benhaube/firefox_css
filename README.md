@@ -8,13 +8,13 @@ Anyway, for the first time I wrote some `userContent.ccs` to match all of the `a
 
 ## My Themes
 
-| Theme                    | Link                                                                                                         |
-| :----------------------- | :----------------------------------------------------------------------------------------------------------- |
-| Material Dark Forest     | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/material-dark-forest/)     |
-| Material Purple Enhanced | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/material-purple-enhanced/) |
-| Material Navy Blue       | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/material-navy-blue/)       |
-| Breeze Light             | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/breeze-light-firefox/)     |
-| Breeze Dark              | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/kde_breeze_dark_theme/)    |
+| Theme                    | Add-on ID                              | Link                                                                                                         |
+| :----------------------- | :------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| Material Dark Forest     | {84a237dc-7559-4934-b750-ea8beb15df7a} | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/material-dark-forest/)     |
+| Material Purple Enhanced | {88708e01-e476-4e5e-b56e-f1b998b54189} | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/material-purple-enhanced/) |
+| Material Navy Blue       | {dc0110a2-05ed-4f3b-870e-b60d9a415016} | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/material-navy-blue/)       |
+| Breeze Light             | {208408d5-228a-450c-879a-d9fc96797800} | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/breeze-light-firefox/)     |
+| Breeze Dark              | {3333da79-3641-4ad7-beeb-19d81558d166} | [&darr;&nbsp;Download&nbsp;&darr;](https://addons.mozilla.org/en-US/firefox/addon/kde_breeze_dark_theme/)    |
 
 ## System Configuration
 
