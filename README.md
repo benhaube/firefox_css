@@ -35,11 +35,11 @@ Anyway, for the first time I wrote some `userContent.ccs` to match all of the `a
     + Click "Accept the Risk and Continue" if it appears.
     + Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and toggle it to `true` by double-clicking it or using the button on the right side.
 2. Locate and open your profile folder:
-    + Go to FF Menu ➝ Help ➝ 'More Troubleshooting Information' or navigate to `about:support` in your address bar.
+    + Go to FF Menu &rarr; Help &rarr; 'More Troubleshooting Information' or navigate to `about:support` in your address bar.
     + Under 'Application Basics', click the 'Open Folder' *('Show in Finder' on MacOS)* button next to 'Profile folder'. You should now see your profile folder open in your file manager.
 
 > [!note]
-> For Thunderbird, the menu choice is TB Menu ➝ Help ➝ 'Troubleshooting Information'.
+> For Thunderbird, the menu choice is TB Menu &rarr; Help &rarr; 'Troubleshooting Information'.
 
 3. Create the folder and its files:
     + Inside your profile folder, create a new folder named 'chrome' *(case-insensitve)*.
@@ -50,4 +50,4 @@ Anyway, for the first time I wrote some `userContent.ccs` to match all of the `a
     + Go to `about:restartrequired` and click the 'Restart Firefox' button.
 
 > [!note]
-> For Thunderbird, close and restart the application the way you normally would, or go to TB Menu ➝ Help Troubleshooting Information ➝ click `about:profiles` link near the bottom of the 'Application Basics' section ➝ click the 'Restart normally' button
+> For Thunderbird, close and restart the application the way you normally would, or go to TB Menu &rarr; Help Troubleshooting Information &rarr; click `about:profiles` link near the bottom of the 'Application Basics' section &rarr; click the 'Restart normally' button
