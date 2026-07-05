@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="/assets/firefox-css.png" width="400" alt="Firefox CSS project logo"/>
+</p>
+
 # Firefox CSS
 
 I have always written my own Firefox themes to match the system colors I am using at any given time. Right now I use the KDE Plasma DE with the [KDE-Material-You-Colors](https://github.com/luisbocanegra/kde-material-you-colors) package and set the color I want manually instead of using the automatic wallpaper feature.
