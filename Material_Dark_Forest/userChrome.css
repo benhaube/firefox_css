@@ -1,14 +1,35 @@
 :root {
+    --border-color: #8ed0dc !important;
+    --border-color-interactive: #8ed0dc !important;
+    --border-color-interactive-hover: #8ed0dc !important;
     --background-color-canvas: #001417 !important;
     --background-color-box: #002429 !important;
-    --panel-separator-color: #8ed0dc !important;
-    --panel-separator-color: #8ed0dc !important;
+    --background-color-box-info: #002429 !important;
+    --background-color-information: #00464f !important;
+    --color-accent-primary: #8ed0dc !important;
+    --color-accent-primary-selected: #8ed0dc !important;
+    --color-accent-primary-hover: #008698 !important;
+    --color-accent-primary-active: #00626f !important;
     --button-background-color-hover: #00626f !important;
     --button-background-color-active: #00464F !important;
     --button-background-color-selected: #00464F !important;
+    --button-background-color-primary-hover: #008698 !important;
+    --button-background-color-primary-active: #00626f !important;
+    --button-background-color-primary-selected: #00626f !important;
+    --panel-separator-color: #8ed0dc !important;
+    --panel-separator-color: #8ed0dc !important;
+    --tab-background-color-hover: #00464F !important;
+    --tab-background-color-selected: #00464F !important;
     --toolbarbutton-active-background: #00464F !important;
+    --toolbarbutton-background-color-hover: #00626f !important;
+    --toolbarbutton-background-color-active: #00464F !important;
     --toolbarbutton-icon-fill: #8ed0dc !important;
-    --color-accent-primary: #8ed0dc !important;
+    --urlbar-box-background-color-hover: #00464F !important;
+}
+
+:root.nova-tokens {
+    --button-background-color-hover: #008698 !important;
+    --button-background-color-active: #00626f !important;
 }
 
 :is(menupopup, panel) {
