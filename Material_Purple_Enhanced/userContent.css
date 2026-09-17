@@ -2,20 +2,85 @@
     --background-color-canvas: #0d112e !important;
     --background-color-box: #191d3c !important;
     --background-color-box-info: #191d3c !important;
+    --background-color-information: #5b5f7e !important;
+    --icon-color-information: #8f94c5 !important;
     --border-color: #8f94c5 !important;
+    --border-color-interactive: #8f94c5 !important;
+    --border-color-interactive-hover: #8f94c5 !important;
+    --button-background-color: #5b5f7e !important;
+    --button-background-color-hover: #7c81ab !important;
+    --button-background-color-active: #5b5f7e !important;
+    --button-background-color-primary-hover: #7c81ab !important;
+    --button-background-color-primary-active: #5b5f7e !important;
+    --button-background-color-primary-selected: #5b5f7e !important;
     --color-accent-primary: #8f94c5 !important;
     --color-accent-primary-selected: #8f94c5 !important;
+    --color-accent-primary-hover: #7c81ab !important;
+    --color-accent-primary-active: #5b5f7e !important;
     --table-background-color: #191d3c !important;
     --table-row-background-color-alternate: #0d112e !important;
     --table-border-color: #4d516b !important;
     --cpu-percent-bar: #4d516b !important;
+    --newtab-text-primary-color: #8f94c5 !important;
+    --newtab-primary-element-text-color: #8f94c5 !important;
     --newtab-background-card: #191d3c !important;
     --newtab-background-color: #0d112e !important;
     --newtab-background-color-secondary: #191d3c !important;
     --newtab-weather-background-color: #191d3c !important;
     --newtab-element-hover-color: #4d516b !important;
+    --newtab-button-static-background: #5b5f7e !important;
+    --newtab-button-static-hover-background: #4d516b !important;
     --fxview-background-color: #0d112e !important;
+    --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
+    --focus-outline: #8f94c5 !important;
 }
+
+:root.nova-tokens {
+    --button-background-color-hover: #7c81ab !important;
+    --button-background-color-active: #5b5f7e !important;
+}
+
+/* New Tab Page toggles */
+@layer tokens-foundation, tokens-foundation-nova, tokens-prefers-contrast, tokens-prefers-contrast-nova, tokens-forced-colors, tokens-forced-colors-nova;
+
+@layer tokens-foundation {
+  :root,
+  :host {
+    --toggle-background-color: var(--button-background-color) !important;
+    --toggle-background-color-hover: var(--button-background-color-hover) !important;
+    --toggle-background-color-active: var(--button-background-color-active) !important;
+    --toggle-background-color-pressed: var(--color-accent-primary) !important;
+    --toggle-background-color-pressed-hover: var(--color-accent-primary-hover) !important;
+    --toggle-background-color-pressed-active: var(--color-accent-primary-active) !important;
+    --toggle-border-color: var(--border-color-interactive) !important;
+    --toggle-border-color-hover: var(--toggle-border-color) !important;
+    --toggle-border-color-active: var(--toggle-border-color) !important;
+    --toggle-dot-background-color: var(--toggle-border-color) !important;
+    --toggle-dot-background-color-hover: var(--toggle-dot-background-color) !important;
+    --toggle-dot-background-color-active: var(--toggle-dot-background-color) !important;
+    --toggle-dot-background-color-on-pressed: var(--background-color-canvas) !important;
+  }
+}
+
+@layer tokens-forced-colors {
+  @media (forced-colors) {
+    :root,
+    :host {
+      --toggle-border-color-hover: var(--border-color-interactive-hover) !important;
+      --toggle-border-color-active: var(--border-color-interactive-active) !important;
+      --toggle-dot-background-color: var(--color-accent-primary) !important;
+      --toggle-dot-background-color-hover: var(--color-accent-primary-hover) !important;
+      --toggle-dot-background-color-active: var(--color-accent-primary-active) !important;
+      --toggle-dot-background-color-on-pressed: var(--button-background-color) !important;
+    }
+  }
+}
+
+.home-section .section .customize-menu-checkbox:checked {
+	-moz-context-properties: fill !important;
+	fill: var(--newtab-background-color) !important;
+}
+
 
 /* Ensure these changes ONLY apply to Firefox's internal pages */
 @-moz-document url-prefix("about:") {
@@ -53,4 +118,41 @@ tr[selected] > td {
 }
 .cpu:dir(rtl) {
     background: linear-gradient(to right, var(--cpu-percent-bar) calc(var(--bar-width) * 1%), transparent calc(var(--bar-width) * 1%)) !important;
+}
+
+/* Customize Weather Widget */
+.nova-enabled .weather-widget {
+  /* padding: var(--space-medium); */
+  /* background-color: var(--newtab-background-card); */
+  /* border-radius: var(--border-radius-large); */
+  /* box-shadow: var(--box-shadow-level-2); */
+  color: var(--newtab-text-primary-color) !important; 
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: relative; */
+  /* z-index: 1; */
+  --weather-sunny-background-color: var(--newtab-weather-background-color) !important;
+  --weather-cloudy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-rainy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-snowy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-hot-background-color: var(--newtab-weather-background-color) !important;
+}
+.nova-enabled .weather-widget:hover, .nova-enabled .weather-widget:focus-within {
+  outline: 1px solid var(--border-color) !important;
+  /* box-shadow: var(--card-box-shadow-hover); */
+}
+
+.highlighting-group {
+  --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
+}
+
+.privacy-detailedoption {
+  background-color: var(--background-color-canvas) !important;
+}
+.privacy-detailedoption.selected {
+  background-color: var(--section-highlight-background-color) !important;
+}
+
+#progress-bar {
+	background-color: var(--background-color-canvas) !important;
 }

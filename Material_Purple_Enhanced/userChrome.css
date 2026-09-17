@@ -1,0 +1,79 @@
+:root {
+    --border-color: #8f94c5 !important;
+    --border-color-interactive: #8f94c5 !important;
+    --border-color-interactive-hover: #8f94c5 !important;
+    --background-color-canvas: #0D112E !important;
+    --background-color-box: #191D3C !important;
+    --background-color-box-info: #191D3C !important;
+    --background-color-information: #5b5f7e !important;
+    --color-accent-primary: #8f94c5 !important;
+    --color-accent-primary-selected: #8f94c5 !important;
+    --color-accent-primary-hover: #7c81ab !important;
+    --color-accent-primary-active: #5b5f7e !important;
+    --button-background-color-hover: #7c81ab !important;
+    --button-background-color-active: #5b5f7e !important;
+    --button-background-color-selected: #5b5f7e !important;
+    --button-background-color-muted: #191D3C !important;
+    --button-background-color-muted-hover: #5b5f7e !important;
+    --button-background-color-muted-active: #5b5f7e !important;
+    --button-background-color-primary-hover: #7c81ab !important;
+    --button-background-color-primary-active: #5b5f7e !important;
+    --button-background-color-primary-selected: #5b5f7e !important;
+    --panel-separator-color: #8f94c5 !important;
+    --tab-background-color-hover: #5b5f7e !important;
+    --tab-background-color-selected: #5b5f7e !important;
+    --toolbarbutton-active-background: #5b5f7e !important;
+    --toolbarbutton-background-color-hover: #7c81ab !important;
+    --toolbarbutton-background-color-active: #5b5f7e !important;
+    --toolbarbutton-icon-fill: #8f94c5 !important;
+    --urlbar-box-background-color-hover: #5b5f7e !important;
+    --urlbar-box-background-color-active: #5b5f7e !important;
+    --urlbarview-background-color-hover: #7c81ab !important;
+    --urlbarview-background-color-selected: #8f94c5 !important;
+}
+
+:root.nova-tokens {
+    --button-background-color-hover: #7c81ab !important;
+    --button-background-color-active: #5b5f7e !important;
+}
+
+:is(menupopup, panel) {
+  /* We can always render in the preferred color scheme (unless otherwise
+   * overridden). */
+  color-scheme: dark !important; 
+}
+
+/* -------------------------- 
+ * CTRL-TAB PANEL
+ * -------------------------- */
+
+#ctrlTab-panel {
+  appearance: none !important;
+  --panel-background: hsla(187, 100%, 8%, .85) !important;
+}
+
+.ctrlTab-favicon[src] {
+  background-color: #5b5f7e !important;
+}
+
+#ctrlTab-showAll {
+  background-color: #5b5f7e !important;
+}
+
+.ctrlTab-preview:focus > .ctrlTab-preview-inner,
+#ctrlTab-showAll:focus {
+  background-color: #0D112E !important;
+  border-color: #8f94c5 !important;
+}
+
+/* -------------------------- 
+ * ABOUT PANEL
+ * -------------------------- */
+
+#aboutDialogContainer {
+  background-color: #191D3C !important;
+  color-scheme: dark;
+}
+#bottomBox {
+  background-color: #0D112E !important;
+}
