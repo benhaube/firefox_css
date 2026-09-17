@@ -152,3 +152,7 @@ tr[selected] > td {
 .privacy-detailedoption.selected {
   background-color: var(--section-highlight-background-color) !important;
 }
+
+#progress-bar {
+	background-color: var(--background-color-canvas) !important;
+}

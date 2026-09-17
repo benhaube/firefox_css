@@ -1,15 +1,41 @@
 :root {
+    --border-color: #00F700 !important;
+    --border-color-interactive: #00F700 !important;
+    --border-color-interactive-hover: #00F700 !important;
     --background-color-canvas: #111111 !important;
     --background-color-box: #161616 !important;
-    --panel-separator-color: #00F700 !important;
-    --panel-separator-color: #00F700 !important;
+    --background-color-box-info: #161616 !important;
+    --background-color-information: #0E380E !important;
+    --color-accent-primary: #00F700 !important;
+    --color-accent-primary-selected: #00F700 !important;
+    --color-accent-primary-hover: #0C570C !important;
+    --color-accent-primary-active: #0E380E !important;
     --button-background-color-hover: #0C570C !important;
     --button-background-color-active: #0E380E !important;
     --button-background-color-selected: #0E380E !important;
-    --toolbarbutton-active-background: #0C570C !important;
+    --button-background-color-muted: #0E380E !important;
+    --button-background-color-muted-hover: #0C570C !important;
+    --button-background-color-muted-active: #0E380E !important;
+    --button-background-color-muted-selected: #107410 !important;
+    --button-background-color-primary-hover: #0C570C !important;
+    --button-background-color-primary-active: #0E380E !important;
+    --button-background-color-primary-selected: #0E380E !important;
+    --panel-separator-color: #00F700 !important;
+    --tab-background-color-hover: #0E380E !important;
+    --tab-background-color-selected: #0E380E !important;
+    --toolbarbutton-active-background: #0E380E !important;
+    --toolbarbutton-background-color-hover: #0C570C !important;
+    --toolbarbutton-background-color-active: #0E380E !important;
     --toolbarbutton-icon-fill: #00F700 !important;
     --color-accent-primary: #00F700 !important;
     --sidebar-background-color: #161616 !important;
+    --urlbar-box-background-color-hover: #0E380E !important;
+    --urlbarview-background-color-selected: #107410 !important;
+}
+
+:root.nova-tokens {
+    --button-background-color-hover: #0C570C !important;
+    --button-background-color-active: #0E380E !important;
 }
 
 :is(menupopup, panel) {
