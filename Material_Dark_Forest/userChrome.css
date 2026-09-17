@@ -13,6 +13,9 @@
     --button-background-color-hover: #00626f !important;
     --button-background-color-active: #00464F !important;
     --button-background-color-selected: #00464F !important;
+    --button-background-color-muted: #002429 !important;
+    --button-background-color-muted-hover: #00464F !important;
+    --button-background-color-muted-active: #00464F !important;
     --button-background-color-primary-hover: #008698 !important;
     --button-background-color-primary-active: #00626f !important;
     --button-background-color-primary-selected: #00626f !important;
@@ -24,6 +27,9 @@
     --toolbarbutton-background-color-active: #00464F !important;
     --toolbarbutton-icon-fill: #8ed0dc !important;
     --urlbar-box-background-color-hover: #00464F !important;
+    --urlbar-box-background-color-active: #00464F !important;
+    --urlbarview-background-color-hover: #00626f !important;
+    --urlbarview-background-color-selected: #8ed0dc !important;
 }
 
 :root.nova-tokens {
