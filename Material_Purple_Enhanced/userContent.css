@@ -159,6 +159,12 @@ tr[selected] > td {
 
 @media (height > 700px) {
   .nova-outer-wrapper.stuck-search::before {
-    backdrop-filter: blur(4px); 
+    backdrop-filter: blur(10px); 
   }
+}
+
+.customize-menu {
+  --customize-menu-bg: color-mix(in srgb, var(--newtab-background-color-secondary) 85%, transparent) !important;
+  background-color: var(--newtab-background-color-secondary);
+  backdrop-filter: blur(10px);
 }
