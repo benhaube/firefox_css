@@ -156,3 +156,9 @@ tr[selected] > td {
 #progress-bar {
 	background-color: var(--background-color-canvas) !important;
 }
+
+@media (height > 700px) {
+  .nova-outer-wrapper.stuck-search::before {
+    backdrop-filter: blur(4px); 
+  }
+}
