@@ -30,14 +30,28 @@
     --newtab-element-hover-color: #4d516b !important;
     --newtab-button-static-background: #5b5f7e !important;
     --newtab-button-static-hover-background: #4d516b !important;
+    --newtab-button-static-active-background: #4d516b !important;
+    --newtab-button-static-focus-background: #4d516b !important;
     --fxview-background-color: #0d112e !important;
     --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
     --focus-outline: #8f94c5 !important;
+    --start-card-accent: #8f94c5 !important;
+    --start-card-button-text: #0d112e !important;
+    --start-card-link-text: #8f94c5 !important;
+    --start-card-link-hover: #4d516b !important;
+    --start-preview-cell: #5b5f7e !important;
+    --cell-border: #8f94c5 !important;
+	  --cell-clue-bg: #0d112e !important;
+	  --cell-selected-bg: #4d516b !important;
+	  --cell-selected-border: #8f94c5 !important;
 }
 
 :root.nova-tokens {
     --button-background-color-hover: #7c81ab !important;
     --button-background-color-active: #5b5f7e !important;
+    --button-background-color-muted: #191d3c !important;
+    --button-background-color-muted-hover: #4d516b !important;
+    --popup-border-color: #8f94c5 !important;
 }
 
 /* New Tab Page toggles */
@@ -120,28 +134,6 @@ tr[selected] > td {
     background: linear-gradient(to right, var(--cpu-percent-bar) calc(var(--bar-width) * 1%), transparent calc(var(--bar-width) * 1%)) !important;
 }
 
-/* Customize Weather Widget */
-.nova-enabled .weather-widget {
-  /* padding: var(--space-medium); */
-  /* background-color: var(--newtab-background-card); */
-  /* border-radius: var(--border-radius-large); */
-  /* box-shadow: var(--box-shadow-level-2); */
-  color: var(--newtab-text-primary-color) !important; 
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* position: relative; */
-  /* z-index: 1; */
-  --weather-sunny-background-color: var(--newtab-weather-background-color) !important;
-  --weather-cloudy-background-color: var(--newtab-weather-background-color) !important;
-  --weather-rainy-background-color: var(--newtab-weather-background-color) !important;
-  --weather-snowy-background-color: var(--newtab-weather-background-color) !important;
-  --weather-hot-background-color: var(--newtab-weather-background-color) !important;
-}
-.nova-enabled .weather-widget:hover, .nova-enabled .weather-widget:focus-within {
-  outline: 1px solid var(--border-color) !important;
-  /* box-shadow: var(--card-box-shadow-hover); */
-}
-
 .highlighting-group {
   --section-highlight-background-color: color-mix(in srgb, var(--color-accent-primary) 20%, transparent) !important;
 }
@@ -157,6 +149,10 @@ tr[selected] > td {
 	background-color: var(--background-color-canvas) !important;
 }
 
+/* ---------------------- *
+ * New Tab Page Customize * 
+ * ---------------------- */
+
 @media (height > 700px) {
   .nova-outer-wrapper.stuck-search::before {
     backdrop-filter: blur(10px); 
@@ -167,4 +163,69 @@ tr[selected] > td {
   --customize-menu-bg: color-mix(in srgb, var(--newtab-background-color-secondary) 85%, transparent) !important;
   background-color: var(--newtab-background-color-secondary);
   backdrop-filter: blur(10px);
+}
+
+/* ~~~ Widgets Customization ~~~ */
+
+.nova-enabled .weather-widget {
+	background: color-mix(var(--newtab-background-card) 85%, transparent) !important;
+	backdrop-filter: blur(5px) !important;
+  color: var(--newtab-text-primary-color) !important; 
+  --weather-sunny-background-color: var(--newtab-weather-background-color) !important;
+  --weather-cloudy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-rainy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-snowy-background-color: var(--newtab-weather-background-color) !important;
+  --weather-hot-background-color: var(--newtab-weather-background-color) !important;
+}
+.nova-enabled .weather-widget:hover, .nova-enabled .weather-widget:focus-within {
+  outline: 1px solid var(--border-color) !important;
+}
+.crossword {
+	background: color-mix(var(--newtab-background-card) 85%, transparent) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.crossword:hover, .crossword:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .lists {
+	background: color-mix(var(--newtab-background-card) 85%, transparent) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.nova-enabled .lists:hover, .nova-enabled .lists:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .clocks-widget {
+	background: color-mix(var(--newtab-background-card) 85%, transparent) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.nova-enabled .clocks-widget:hover, .nova-enabled .clocks-widget:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .focus-timer {
+	background: color-mix(var(--newtab-background-card) 85%, transparent) !important;
+	backdrop-filter: blur(5px) !important;
+	--timer-ring-idle-color: var(--border-color) !important;
+}
+.nova-enabled .focus-timer:hover, .nova-enabled .focus-timer:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .stocks {
+	background: color-mix(var(--newtab-background-card) 85%, transparent) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.nova-enabled .stocks:hover, .nova-enabled .stocks:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.lists {
+  --lists-button-background: var(--color-accent-primary) !important;
+}
+.widget-pill-button-start-card {
+	--widget-pill-bg: var(--start-card-accent);
+	--widget-pill-text: var(--start-card-button-text);
+	--widget-pill-hover-bg: #7c81ab !important;
+}
+.widget-pill-button-completion {
+	--widget-pill-bg: var(--start-card-accent);
+	--widget-pill-text: var(--start-card-button-text);
+	--widget-pill-hover-bg: #7c81ab !important;
 }
