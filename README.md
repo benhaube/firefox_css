@@ -34,9 +34,9 @@ Anyway, for the first time I wrote some `userContent.ccs` to match all of the `a
 | Property         | Value                        |
 | :--------------- | :--------------------------- |
 | Operating System | Fedora 44 KDE Plasma Edition |
-| Kernel Version   | `7.0.11-200.fc44.x86_64`     |
-| Firefox Version  | `151.0.3` *(64-bit)*         |
-| Firefox Build    | `20260527091838`             |
+| Kernel Version   | `7.2.9-200.fc44.x86_64`      |
+| Firefox Version  | `157.0.1` *(64-bit)*         |
+| Firefox Build    | `20261005135250`             |
 
 > [!note]
 > I have noticed that some desktop environments, like GNOME and Xfce, tend to force their own native appearance for text input and search boxes, overriding the custom CSS. If this happens in your case you can uncomment the line, `appearance: none !important;`. I do not have a Windows installation to test, but I have had a Windows 10 user report that it works on thier machine. However, YMMV.
