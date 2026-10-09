@@ -39,7 +39,7 @@ Anyway, for the first time I wrote some `userContent.ccs` to match all of the `a
 | Firefox Build    | `20261005135250`             |
 
 > [!note]
-> I have noticed that some desktop environments, like GNOME and Xfce, tend to force their own native appearance for text input and search boxes, overriding the custom CSS. If this happens in your case you can uncomment the line, `appearance: none !important;`. I do not have a Windows installation to test, but I have had a Windows 10 user report that it works on thier machine. However, YMMV.
+> I have noticed that some desktop environments, like GNOME and Xfce, tend to force their own native appearance for text input and search boxes, overriding the custom CSS. If this happens in your case you can uncomment the line, `appearance: none !important;`. I do not have a Windows installation to test, but I have had a Windows 10 user report that it works on their machine. However, YMMV.
 
 ## Theme Setup
 
@@ -55,7 +55,7 @@ Anyway, for the first time I wrote some `userContent.ccs` to match all of the `a
 > For Thunderbird, the menu choice is TB Menu &rarr; Help &rarr; 'Troubleshooting Information'.
 
 3. Create the folder and its files:
-    + Inside your profile folder, create a new folder named 'chrome' *(case-insensitve)*.
+    + Inside your profile folder, create a new folder named 'chrome' *(case-insensitive)*.
     + Move the files into the 'chrome' folder: `userChrome.css` and `userContent.css` *(case sensitive)*.
 4. Restart the application *(three options)*:
     + Close and restart the application the way you normally would.
