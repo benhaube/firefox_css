@@ -256,18 +256,18 @@ tr[selected] > td {
 }
 
 .toolbarButton {
-  color: var(--toolbarbutton-icon-fill) !important;
+  color: #00F700 !important;
 
   &::before{
-    background-color:#8ed0dc !important;
+    background-color:#00F700 !important;
   }
 
   &.toggled{
     background-color:var(--button-background-color-primary-active) !important;
-    color:var(--toolbarbutton-icon-fill) !important;
+    color:#00F700 !important;
 
     &::before{
-      background-color:var(--toolbarbutton-icon-fill) !important;
+      background-color:#00F700 !important;
     }
   }
 
@@ -275,7 +275,7 @@ tr[selected] > td {
     background-color:var(--button-background-color-primary-hover) !important;
 
     &::before{
-      background-color:var(--toolbarbutton-icon-fill) !important;
+      background-color:#00F700 !important;
     }
   }
 }
