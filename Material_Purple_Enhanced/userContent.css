@@ -229,3 +229,53 @@ tr[selected] > td {
 	--widget-pill-text: var(--start-card-button-text);
 	--widget-pill-hover-bg: #7c81ab !important;
 }
+
+/* ---------------------- *
+ * PDF Viewer             * 
+ * ---------------------- */
+
+:root {
+  @media -moz-pref("pdfjs.enableNova") and -moz-pref("browser.nova.enabled") {
+    --body-bg-color: #000 !important;
+  }
+}
+
+.treeItem {
+  & > a {
+    &:hover {
+	    background-color: var(--button-background-color-primary-hover) !important;
+    }
+  }
+  &.selected > a {
+	  background-color: var(--button-background-color-primary-active) !important;
+  }
+}
+
+#toolbarContainer {
+  background-color: var(--background-color-canvas) !important;
+}
+
+.toolbarButton {
+  color: var(--toolbarbutton-icon-fill) !important;
+
+  &::before{
+    background-color:#8ed0dc !important;
+  }
+
+  &.toggled{
+    background-color:var(--button-background-color-primary-active) !important;
+    color:var(--toolbarbutton-icon-fill) !important;
+
+    &::before{
+      background-color:var(--toolbarbutton-icon-fill) !important;
+    }
+  }
+
+  &:is(:hover, :focus-visible){
+    background-color:var(--button-background-color-primary-hover) !important;
+
+    &::before{
+      background-color:var(--toolbarbutton-icon-fill) !important;
+    }
+  }
+}
