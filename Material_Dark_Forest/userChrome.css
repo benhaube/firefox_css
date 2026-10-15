@@ -43,8 +43,8 @@
   color-scheme: dark !important; 
 }
 
-/* -------------------------- 
- * CTRL-TAB PANEL
+/* -------------------------- *
+ * CTRL-TAB PANEL             * 
  * -------------------------- */
 
 #ctrlTab-panel {
@@ -66,8 +66,8 @@
   border-color: #8ed0dc !important;
 }
 
-/* -------------------------- 
- * ABOUT PANEL
+/* -------------------------- *
+ * ABOUT PANEL                *
  * -------------------------- */
 
 #aboutDialogContainer {
@@ -76,4 +76,201 @@
 }
 #bottomBox {
   background-color: #001417 !important;
+}
+
+/* -------------------------- *
+ * Fullscreen Warning         *
+ * -------------------------- */
+
+#fullscreen-warning.pointerlockfswarning {
+  pointer-events: none !important;
+
+  box-sizing: border-box !important;
+
+  width: max-content !important;
+  max-width: min(720px, 92vw) !important;
+  min-height: 38px !important;
+
+  padding: 6px 8px 6px 12px !important;
+  gap: 8px !important;
+
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 999px !important;
+
+  background: rgba(24, 24, 27, 0.82) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+
+  backdrop-filter: blur(6.5px) !important;
+
+  font: message-box !important;
+  font-size: 13px !important;
+  line-height: 1.3 !important;
+
+  align-items: center !important;
+}
+
+#fullscreen-warning.pointerlockfswarning[onscreen] {
+  translate: 0 18px !important;
+}
+
+#fullscreen-warning.pointerlockfswarning[ontop] {
+  translate: 0 8px !important;
+}
+
+#fullscreen-warning.pointerlockfswarning:is(
+  [data-identity="verifiedDomain"],
+  [data-identity="unknownIdentity"]
+)::before {
+  flex: 0 0 auto !important;
+
+  width: 16px !important;
+  height: 16px !important;
+
+  margin: 0 !important;
+
+  background-size: 16px 16px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+
+  opacity: 0.86 !important;
+
+  -moz-context-properties: fill !important;
+  fill: currentColor !important;
+}
+
+#fullscreen-warning .pointerlockfswarning-domain-text,
+#fullscreen-warning .pointerlockfswarning-generic-text {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  min-width: 0 !important;
+  max-width: 52vw !important;
+
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+
+  color: rgba(255, 255, 255, 0.88) !important;
+}
+
+#fullscreen-warning .pointerlockfswarning-domain {
+  margin: 0 !important;
+
+  font-weight: 600 !important;
+  color: #fff !important;
+}
+
+#fullscreen-warning .pointerlockfswarning-domain-text:not([hidden])
+  + .pointerlockfswarning-generic-text {
+  display: none !important;
+}
+
+#fullscreen-exit-button {
+  pointer-events: auto !important;
+
+  flex: 0 0 auto !important;
+
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  min-height: 28px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+  border-radius: 999px !important;
+
+  appearance: none !important;
+  -moz-appearance: none !important;
+
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+
+  font-size: 0 !important;
+  line-height: 0 !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  cursor: pointer !important;
+}
+
+#fullscreen-exit-button::before {
+  content: "" !important;
+
+  width: 14px !important;
+  height: 14px !important;
+
+  background-color: currentColor !important;
+
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 3.5L12.5 12.5M12.5 3.5L3.5 12.5' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") !important;
+  mask-repeat: no-repeat !important;
+  mask-position: center !important;
+  mask-size: contain !important;
+}
+
+#fullscreen-exit-button:hover {
+  background: rgba(255, 255, 255, 0.18) !important;
+}
+
+#fullscreen-exit-button:active {
+  background: rgba(255, 255, 255, 0.24) !important;
+}
+
+#pointerlock-warning.pointerlockfswarning {
+  box-sizing: border-box !important;
+
+  width: max-content !important;
+  max-width: min(720px, 92vw) !important;
+  min-height: 38px !important;
+
+  padding: 6px 12px !important;
+  gap: 8px !important;
+
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 999px !important;
+
+  background: rgba(24, 24, 27, 0.82) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+
+  backdrop-filter: blur(6.5px) !important;
+
+  font: message-box !important;
+  font-size: 13px !important;
+  line-height: 1.3 !important;
+
+  align-items: center !important;
+}
+
+#pointerlock-warning.pointerlockfswarning[onscreen] {
+  translate: 0 18px !important;
+}
+
+#pointerlock-warning.pointerlockfswarning[ontop] {
+  translate: 0 8px !important;
+}
+
+#pointerlock-warning .pointerlockfswarning-domain-text,
+#pointerlock-warning .pointerlockfswarning-generic-text {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  min-width: 0 !important;
+  max-width: 52vw !important;
+
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+
+  color: rgba(255, 255, 255, 0.88) !important;
 }
