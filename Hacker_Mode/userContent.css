@@ -5,6 +5,7 @@
     --background-color-information: #092409 !important;
     --icon-color-information: #00F700 !important;
     --border-color: #00F700 !important;
+    --border-color-deemphasized: #00F700 !important;
     --border-color-interactive: #00F700 !important;
     --border-color-interactive-hover: #00F700 !important;
     --button-background-color: #092409 !important;
@@ -54,6 +55,21 @@
     --popup-border-color: #00F700 !important;
 }
 
+@layer tokens-foundation, tokens-browser-theme, tokens-foundation-brand, tokens-foundation-nova, tokens-browser-theme-nova, tokens-foundation-brand-nova, tokens-prefers-contrast, tokens-prefers-contrast-nova, tokens-forced-colors, tokens-forced-colors-nova;
+
+:root,
+:host {
+  @layer tokens-foundation {
+    --page-nav-hr-background-color: var(--border-color) !important;
+  }
+
+  @media -moz-pref("browser.nova.enabled") {
+    @layer tokens-foundation-nova {
+        --button-background-color-ghost: transparent !important;
+    }
+  }
+}
+
 /* New Tab Page toggles */
 @layer tokens-foundation, tokens-foundation-nova, tokens-prefers-contrast, tokens-prefers-contrast-nova, tokens-forced-colors, tokens-forced-colors-nova;
 
@@ -74,7 +90,6 @@
     --toggle-dot-background-color-active: var(--toggle-dot-background-color) !important;
     --toggle-dot-background-color-on-pressed: var(--background-color-canvas) !important;
   }
-}
 
 @layer tokens-forced-colors {
   @media (forced-colors) {
