@@ -1,0 +1,56 @@
+:root {
+    border-color: rgb(56, 56, 56);
+}
+
+/* ---------------------- *
+ * New Tab Page Customize * 
+ * ---------------------- */
+
+/* ~~~ Background blur ~~~ */
+@media (height > 700px) {
+    .nova-outer-wrapper.stuck-search::before {
+        backdrop-filter: blur(5px); 
+    }
+}
+.customize-menu {
+    backdrop-filter: blur(5px);
+}
+
+/* ~~~ Widgets Customization ~~~ */
+.nova-enabled .weather-widget {
+    backdrop-filter: blur(5px) !important;
+}
+.nova-enabled .weather-widget:hover, .nova-enabled .weather-widget:focus-within {
+    outline: 1px solid var(--border-color) !important;
+}
+.crossword {
+	backdrop-filter: blur(5px) !important;
+}
+.crossword:hover, .crossword:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .lists {
+	backdrop-filter: blur(5px) !important;
+}
+.nova-enabled .lists:hover, .nova-enabled .lists:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .clocks-widget {
+	backdrop-filter: blur(5px) !important;
+}
+.nova-enabled .clocks-widget:hover, .nova-enabled .clocks-widget:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .focus-timer {
+	backdrop-filter: blur(5px) !important;
+	--timer-ring-idle-color: var(--border-color) !important;
+}
+.nova-enabled .focus-timer:hover, .nova-enabled .focus-timer:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
+.nova-enabled .stocks {
+	backdrop-filter: blur(5px) !important;
+}
+.nova-enabled .stocks:hover, .nova-enabled .stocks:focus-within {
+	outline: 1px solid var(--border-color) !important;
+}
