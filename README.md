@@ -2,7 +2,9 @@
     <img src="/assets/firefox-css.png" width="400" alt="Firefox CSS project logo"/>
 </p>
 <p align="center">
-    <img alt="License Badge" src="https://img.shields.io/github/license/benhaube/firefox_css?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNGRjcxMzkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1zY2FsZSBwcmV2aWV3LWljb24iPjxwYXRoIGQ9Ik0xMiAzdjE4Ii8%2BPHBhdGggZD0ibTE5IDggMyA4YTUgNSAwIDAgMS02IDB6VjciLz48cGF0aCBkPSJNMyA3aDFhMTcgMTcgMCAwIDAgOC0yIDE3IDE3IDAgMCAwIDggMmgxIi8%2BPHBhdGggZD0ibTUgOCAzIDhhNSA1IDAgMCAxLTYgMHpWNyIvPjxwYXRoIGQ9Ik03IDIxaDEwIi8%2BPC9zdmc%2B&label=License&color=%23645EDC">
+    <a href="https://github.com/benhaube/firefox_css/blob/main/LICENSE">
+        <img alt="License Badge" src="https://img.shields.io/github/license/benhaube/firefox_css?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNGRjcxMzkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1zY2FsZSBwcmV2aWV3LWljb24iPjxwYXRoIGQ9Ik0xMiAzdjE4Ii8%2BPHBhdGggZD0ibTE5IDggMyA4YTUgNSAwIDAgMS02IDB6VjciLz48cGF0aCBkPSJNMyA3aDFhMTcgMTcgMCAwIDAgOC0yIDE3IDE3IDAgMCAwIDggMmgxIi8%2BPHBhdGggZD0ibTUgOCAzIDhhNSA1IDAgMCAxLTYgMHpWNyIvPjxwYXRoIGQ9Ik03IDIxaDEwIi8%2BPC9zdmc%2B&label=License&color=%23645EDC">
+    </a>
     <a href="https://www.firefox.com/en-US/">
         <img alt="Static Badge" src="https://img.shields.io/badge/Download-Firefox-%23645EDC?logo=firefoxbrowser&logoColor=%23FF7139">
     </a>
